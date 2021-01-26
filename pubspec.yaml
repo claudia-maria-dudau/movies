@@ -1,0 +1,60 @@
+name: movies
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+  # Animations
+  pedantic: ^1.9.2
+
+  # Audio player
+  audioplayers: ^0.14.1
+
+  # api
+  http: ^0.12.2
+
+  #generare clase
+  built_value: ^7.1.0
+  built_collection: ^4.3.2
+
+  #reducer
+  flutter_redux: ^0.7.0
+
+  #freezed
+  freezed_annotation: ^0.12.0
+
+  #epics
+  redux_epics: ^0.14.0
+  rxdart: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  #builder
+  build_runner: ^1.10.0
+  built_value_generator: ^7.1.0
+
+  #freezed
+  freezed: any
+  analyzer: any
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
